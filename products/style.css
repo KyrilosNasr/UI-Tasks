@@ -1,10 +1,11 @@
-@import url("./fonts/Shubbak/font.css");
+@import url("./fonts/Shubbak/font-bold.css");
+@import url("./fonts/Shubbak/font-regular.css");
 body {
   margin: 0;
   padding: 0;
   background-color: #000234;
   color: white;
-  font-family: "Shubbak";
+  font-family: "Shubbak-regular" regular;
 }
 
 .title h2 {
