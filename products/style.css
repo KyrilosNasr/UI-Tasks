@@ -1,0 +1,52 @@
+@import url("./fonts/Shubbak/font.css");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000234;
+  color: white;
+  font-family: "Shubbak";
+}
+
+.title h2 {
+  font-weight: 700px;
+  font-size: 45px;
+  line-height: 43.96px;
+}
+.title p {
+  font-family: "Shubbak", regular;
+  font-size: 20.74px;
+  font-weight: 400px;
+  line-height: 33.74px;
+  letter-spacing: 0.05px;
+}
+
+.product {
+  width: 316.41px;
+  text-align: right;
+  border: 1.5px solid gray;
+  border-radius: 15px;
+  padding: 10px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.product:hover{
+  border: 0;
+}
+.product .product-content:hover{
+  border: 5px solid;
+  border-image: linear-gradient(45deg, purple, orange) 1;
+  padding: 1rem;
+}
+
+.product p {
+  width: 276.41px;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  display: contents;
+}
+
+.product a{
+  color:#EE9919;
+  cursor: pointer;
+}
