@@ -1,0 +1,42 @@
+@import url("./fonts/Shubbak/font-regular.css");
+@import url("./fonts/Shubbak/font-bold.css");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000234;
+  color: white;
+  font-family: "Shubbak-regular" regular;
+  font-weight: 400;
+}
+.blog{
+  width: 420px;
+  border: 1px solid gray;
+  border-radius: 15px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.blog img{
+  width: 420px;
+  height: 273.72px;
+  border-radius: 10px 10px 0 0;
+}
+.content{
+  padding: 30px;
+  width: 100%;
+}
+
+.content .date{
+  font-weight: 500;
+  font-size: 16.88px;
+  line-height: 27px;
+}
+
+.content .blog-title{
+  font-weight: 700;
+  font-size: 16.45px;
+  line-height: 25.2px;
+}
+
+.content:hover a{
+color: #EE9919 !important;
+}

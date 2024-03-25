@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'Shubbak';
-    src: local('Shubbak W05 Bold'), local('Shubbak-W05-Bold'),
-        url('Shubbak-Bold.ttf') format('truetype'),
-        url('Shubbak-Regular.ttf') format('truetype');
-
-    font-weight: 700;
-    font-style: normal;
-  }
